@@ -59,6 +59,24 @@
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZlV-YG-kmW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1S-h7-AQr">
+                                <rect key="frame" x="53" y="339" width="57" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nN8-GW-DY6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbu-2F-Cgh">
+                                <rect key="frame" x="151" y="339" width="57" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zKE-uu-svB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -69,6 +87,8 @@
                         <outletCollection property="cardButtons" destination="k25-86-LpJ" collectionClass="NSMutableArray" id="K9N-4D-DT4"/>
                         <outletCollection property="cardButtons" destination="GZR-aY-Gtx" collectionClass="NSMutableArray" id="4kZ-lJ-BSH"/>
                         <outletCollection property="cardButtons" destination="IdD-c4-anj" collectionClass="NSMutableArray" id="hUs-ht-tJO"/>
+                        <outletCollection property="cardButtons" destination="j1S-h7-AQr" collectionClass="NSMutableArray" id="DWk-zR-cQa"/>
+                        <outletCollection property="cardButtons" destination="fbu-2F-Cgh" collectionClass="NSMutableArray" id="Sv5-OZ-a9F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
