@@ -10,3 +10,13 @@
 
 **structs vs classes**: structs are copied and classes are by reference. Both have free `init()`
 **nested if**: you can use `if (x, y){...` will be translated as a nested if 
+
+**Access Control**:
+-Internal: this is the default, it means "usable by any object in my app or framework"
+-private: this means "only callable from within this object"
+-private(set): this means "this property is readable outside this project, but not settable"
+-fileprivate: accessible by any code in this source file
+-public: (for frameworks only) this can be used by objects outside my framework
+-open: (for frameworks only) public and objects outside my framework can subclass this
+
+**Extensions**: you can add methods/properties to a class/struct/enum (even if you don't have the source) like add to the prototype in JS
