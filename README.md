@@ -9,6 +9,7 @@
 **didSet**: Like an observer executed each time the variable changes.
 
 **structs vs classes**: structs are copied and classes are by reference. Both have free `init()`
+
 **nested if**: you can use `if (x, y){...` will be translated as a nested if 
 
 **Access Control**:
@@ -20,3 +21,5 @@
 -open: (for frameworks only) public and objects outside my framework can subclass this
 
 **Extensions**: you can add methods/properties to a class/struct/enum (even if you don't have the source) like add to the prototype in JS
+
+**Protocol**: Is simply a list of methods and vars with no implementation. Are a way to express an API more concisely. A protocl is a TYPE!  
